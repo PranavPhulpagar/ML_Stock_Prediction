@@ -45,17 +45,17 @@ A Flask-based stock price prediction web application using an LSTM neural networ
 2. Open a terminal/command prompt in the project directory.
 
 3. Train the model (Optional) :
-   '''bash 
+   ```bash
    python train_model.py
 
 
 4. Run the Flask application:
-    '''bash
+   ```bash
     python app.py
 
 
 5. Open your browser and go to:
-   '''bash
+   ```bash
     http://127.0.0.1:5000/
 
 

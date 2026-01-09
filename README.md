@@ -1,59 +1,62 @@
 # ML_Stock_Prediction
 A Flask-based stock price prediction web application using an LSTM neural network. The model is trained on historical stock data using PyTorch and predicts next-day prices in real time using Yahoo Finance data.
 
-📌 Features
 
-Predicts next-day stock closing price using an LSTM neural network
+## 📌 Features
 
-Accepts real-time stock symbols (e.g., AAPL, TSLA, MSFT)
+- Predicts next-day stock closing price using an LSTM neural network
 
-Fetches latest stock data automatically using Yahoo Finance
+- Accepts real-time stock symbols (e.g., AAPL, TSLA, MSFT)
 
-Scales data using MinMaxScaler for accurate predictions
+- Fetches latest stock data automatically using Yahoo Finance
 
-User-friendly web interface built with HTML and CSS
+- Scales data using MinMaxScaler for accurate predictions
 
-Displays predicted price dynamically on the web page
+- User-friendly web interface built with HTML and CSS
 
-Handles invalid or unavailable stock symbols gracefully
+- Displays predicted price dynamically on the web page
 
-🛠️ Technologies Used
+- Handles invalid or unavailable stock symbols gracefully
+  
 
-Python
+## 🛠️ Technologies Used
 
-Flask (Web Framework)
+- Python
 
-PyTorch (LSTM Neural Network)
+- Flask (Web Framework)
 
-Yahoo Finance API (yfinance)
+- PyTorch (LSTM Neural Network)
 
-NumPy
+- Yahoo Finance API (yfinance)
 
-Scikit-learn (MinMaxScaler)
+- NumPy
 
-HTML & CSS (Frontend)
+- Scikit-learn (MinMaxScaler)
 
-Joblib (Model & Scaler persistence)
+- HTML & CSS (Frontend)
 
-▶️ How to Run
+- Joblib (Model & Scaler persistence)
 
-Clone or download this repository.
+  
+## ▶️ How to Run
 
-Open a terminal/command prompt in the project directory.
+1. Clone or download this repository.
 
-(Optional) Train the model:
+2. Open a terminal/command prompt in the project directory.
 
-python train_model.py
-
-
-Run the Flask application:
-
-python app.py
+3. Train the model (Optional) :
+   '''bash 
+   python train_model.py
 
 
-Open your browser and go to:
+4. Run the Flask application:
+    '''bash
+    python app.py
 
-http://127.0.0.1:5000/
+
+5. Open your browser and go to:
+   '''bash
+    http://127.0.0.1:5000/
 
 
-Enter a stock symbol and click Predict.
+6. Enter a stock symbol and click Predict.
